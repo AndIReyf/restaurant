@@ -18,6 +18,10 @@ body{
   width: 100%;
 }
 
+body{
+  text-transform: uppercase;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -42,4 +46,11 @@ li {
 a {
   text-decoration: none;
   display: inline-block;
+  color: #000;
+}
+
+.container{
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
