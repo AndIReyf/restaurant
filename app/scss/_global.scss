@@ -12,18 +12,18 @@ html {
 }
 
 html,
-body{
+body {
   overflow-x: hidden;
   position: relative;
   width: 100%;
+
+  &.lock {
+    overflow: hidden;
+  }
 }
 
-body{
+body {
   text-transform: uppercase;
-}
-
-body.lock{
-  overflow: hidden;
 }
 
 .wrapper {
@@ -53,7 +53,7 @@ a {
   color: #000;
 }
 
-.container{
+.container {
   max-width: 1200px;
   padding: 0 10px;
   margin: 0 auto;

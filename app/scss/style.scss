@@ -103,6 +103,7 @@
 
     &.active {
       transform: translate(0);
+      position: fixed;
     }
   }
 
